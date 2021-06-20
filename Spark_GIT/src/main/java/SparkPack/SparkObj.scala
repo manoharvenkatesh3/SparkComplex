@@ -34,7 +34,7 @@ object SparkObj {
 					flatdf.printSchema()
 					
 					println()
-					println("===============changing back to source DF================")
+					println("===============changing back to source DataFrame================")
 					println()
 					
 					val comlexdf = flatdf.groupBy("nationality","seed","version")
